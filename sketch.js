@@ -22,7 +22,7 @@ function preload() {
 
 function setup() {
 
-  createCanvas(935,920);
+  createCanvas(835,920);
 
   
   bg = createSprite(550, -100,300,20);
