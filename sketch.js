@@ -87,7 +87,14 @@ function draw() {
       gameState = 0;
     }
 
-    camera.position.y = rocket.y;
+    if(rocket.x<50){
+     rocket.x=50
+    } 
+    
+    if(rocket.x>810){ 
+      rocket.x=810
+    } 
+    
   }
 
   if (gameState === 0) {
