@@ -91,8 +91,8 @@ function draw() {
      rocket.x=50
     } 
     
-    if(rocket.x>810){ 
-      rocket.x=810
+    if(rocket.x>830){ 
+      rocket.x=830
     } 
     
   }
